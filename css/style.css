@@ -1,0 +1,40 @@
+/* There seems to be default gaps between header, main and footer within the body. 
+    This gap can be overwritten by adding padding of any pixel. 
+    Then add margin to bring the gap under your control. */
+
+body {
+    background-color: #CACACA;
+}
+
+header {
+    background-color: #78909C;
+    color: white;
+    padding: 25px 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+main {
+    background-color: #0086C6;
+    color: white;
+    width: 600px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+/* Image width is set to 100% of parent element (main-content)
+    If main content-width is changed, image width changes accordingly. */
+img {
+    width: 100%;
+}
+
+footer {
+    background-color: #12405C;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 25px;
+}
+
+    
